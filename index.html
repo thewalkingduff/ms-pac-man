@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>manipulating the dom with</h3>
+    <h1>MS. PAC-MAN!</h1>
+    <section class="game-status">
+        <div id="lives">
+            <h4>1UP</h4>
+            <h4>00</h4>
+        </div>
+        <div id="high-score">
+            <h4>HIGH SCORE</h4>
+            <h4>16440</h4>
+        </div>
+    </section>
+    <hr>
+    <div class="pacman">
+        <img id="PacMan" src="images/ms-pacman/ms-pac-noBackground-1.png" onclick="Run()" style="position:absolute">
+        </img>
+    </div>
+    <section class="container">
+        <div class="food"><img src="images/food/food.png" alt=""></div>
+        <div class="food"><img src="images/food/food.png" alt=""></div>
+        <div class="inky"><img src="images/inky/inky-radiate.png" alt=""></div>
+        <div class="food"><img src="images/food/food.png" alt=""></div>
+        <div class="food"><img src="images/food/food.png" alt=""></div>
+    </section>
+    <hr>
+    <hr>
+    <section class="bottom-game">
+        <div class="extra-lives">
+            <img src="images/ms-pacman/ms-pac-purple-3.PNG" width='200'>
+            <img src="images/ms-pacman/ms-pac-purple-3.PNG" width='200'>
+        </div>
+        <div class="cherry"><img src="images/cherries/cherry-draw-canva.png" alt=""></div>
+    </section>
+    <script src="pacman.js"></script>
+
+</body>
+
+</html>
