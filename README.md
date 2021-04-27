@@ -8,7 +8,7 @@
   </a>
 </p>
 
-> Click Ms. Pac-Man and watch her eat food and Inky. DOM manipulation and logic to make her turn around at the edge of the screen.
+> Watch Ms. Pac-Man chomp up the food and Inky. DOM manipulation and logic to make her turn around at the edge of the screen.
 
 ### 🏠 [Homepage](https://thewalkingduff.github.io/ms-pac-man/)
 
