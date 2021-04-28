@@ -98,6 +98,30 @@ hr {
     width: 175px;
 }
 
+.pacmen-factory {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pacmen-factory a {
+    text-decoration: none;
+    padding: 2rem;
+    }
+
+.pacmen-factory a button {
+background: #fdff00;
+font-family: "EMULOGIC";
+font-size: 1.5rem;
+color: #199EFF;
+cursor: pointer;
+}
+
+.pacmen-factory a button i{
+background: #fdff00;
+color: #199EFF;
+}
+
 
 @media screen and (max-width: 875px){
     #PacMan {
@@ -122,6 +146,10 @@ hr {
         height: 150px;
         width: 150px;
     }
+
+    .pacmen-factory a button {
+        font-size: 1rem;
+        }
 }
 @media screen and (max-width: 750px){
     h1 {
